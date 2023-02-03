@@ -20,10 +20,16 @@ LinkingTo:
     Rcpp,
     RcppEigen
 Imports: 
-    Matrix,
-		Rcpp,
-		RcppEigen,
+    Rcpp,
+    RcppEigen,
     rlang
 Suggests: 
     testthat (>= 3.0.0)
+LinkingTo: 
+    Rcpp,
+    RcppEigen
 Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
